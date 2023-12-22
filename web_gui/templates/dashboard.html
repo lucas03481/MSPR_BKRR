@@ -1,0 +1,19 @@
+<!-- web_gui/templates/dashboard.html -->
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Seahawks Monitoring Dashboard</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+    <h1>Welcome to Seahawks Monitoring Dashboard</h1>
+
+    <form method="POST" action="{{ url_for('dashboard') }}">
+        {{ form.hidden_tag() }}
+        {{ form.ip_range.label }} {{ form.ip_range(size=20) }}
+        {{ form.submit() }}
+    </form>
+
+    <!-- Afficher les informations du réseau et les résultats du scan ici -->
+</body>
+</html>
