@@ -4,7 +4,7 @@ from flask_wtf import FlaskForm
 from wtforms import StringField, SubmitField
 
 app = Flask(__name__)
-app.config['SECRET_KEY'] = 'votre_cle_secrete'  # Changez ceci par une clé secrète sécurisée
+app.config['SECRET_KEY'] = '5825567071ab4632f867d459f46c4270'  # Changez ceci par une clé secrète sécurisée
 app.static_folder = 'static'
 
 class ScanForm(FlaskForm):
