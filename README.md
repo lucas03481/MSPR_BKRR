@@ -10,7 +10,6 @@
 
 - **Scan Réseau (Harvester)** : Utilisation du module Nmap Python pour récolter des informations sur les machines connectées.
 - **Tableau de Bord (Web GUI)** : Affichage des informations clés telles que l'adresse IP, les machines connectées, les résultats du scan, etc.
-- **Prise en Main à Distance (Harvester)** : Intégration pour la prise en main à distance sur l'OS de la machine cliente (potentiellement avec VNC).
 - **Communication Harvester-Nester** : Utilisation d'une API pour transférer et afficher les données entre le Harvester et le Nester.
 - **Base de Données** : Utilisation de MariaDB pour stocker les données.
 
