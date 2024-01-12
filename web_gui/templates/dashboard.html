@@ -8,12 +8,12 @@
 </head>
 <body>
     <div class="container">
-        <h1>Seahawks Monitoring Dashboard</h1>
+        <h1>Seahawks Monitoring</h1>
         <div class="scan-form">
             <form action="{{ url_for('start_scan') }}" method="post">
-                <label for="ip_range">IP Range:</label>
+                <label for="ip_range">Saisir un range d'IP:</label>
                 <input type="text" id="ip_range" name="ip_range" required>
-                <button type="submit">Start Scan</button>
+                <button type="submit">Démarrer le scan</button>
             </form>
         </div>
         <div class="scan-results">
