@@ -1,19 +1,24 @@
-<!-- web_gui/templates/dashboard.html -->
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Seahawks Monitoring Dashboard</title>
-    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='styles.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
 </head>
 <body>
-    <h1>Welcome to Seahawks Monitoring Dashboard</h1>
-
-    <form method="POST" action="{{ url_for('dashboard') }}">
-        {{ form.hidden_tag() }}
-        {{ form.ip_range.label }} {{ form.ip_range(size=20) }}
-        {{ form.submit() }}
-    </form>
-
-    <!-- Afficher les informations du réseau et les résultats du scan ici -->
+    <div class="container">
+        <h1>Seahawks Monitoring Dashboard</h1>
+        <div class="scan-form">
+            <form action="{{ url_for('start_scan') }}" method="post">
+                <label for="ip_range">IP Range:</label>
+                <input type="text" id="ip_range" name="ip_range" required>
+                <button type="submit">Start Scan</button>
+            </form>
+        </div>
+        <div class="scan-results">
+            <!-- Les résultats du scan seront affichés ici -->
+        </div>
+    </div>
 </body>
 </html>
