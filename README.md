@@ -19,7 +19,6 @@
  SeahawksMonitoring/
 ├── harvester/
 │   ├── harvester.py
-│   └── vnc_integration.py
 ├── nester/
 │   ├── nester.py
 │   └── database.sql
