@@ -4,7 +4,7 @@
 
 ## Description
 
-"Seahawks Monitoring" est un projet développé par NFL IT pour améliorer la maintenance à distance des infrastructures informatiques des franchises de la National Football League (NFL). L'application se compose du "Seahawks Harvester" (côté client) et du "Seahawks Nester" (côté serveur), offrant des fonctionnalités de supervision, de maintenance à distance et de remontée d'informations techniques sur les réseaux des franchises.
+"Seahawks Monitoring" est un projet développé par NFL IT pour améliorer la maintenance à distance des infrastructures informatiques des franchises de la National Football League (NFL). L'application se compose du "Seahawks Harvester" (côté client) et du "Seahawks Nester" (côté serveur), offrant des fonctionnalités de supervision, et de remontée d'informations techniques sur les réseaux des franchises.
 
 ## Fonctionnalités Principales
 
