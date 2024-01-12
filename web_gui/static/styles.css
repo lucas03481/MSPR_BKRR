@@ -3,20 +3,20 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f4f4f4;
+    background-color: #1b1b1b;
 }
 
 .container {
     max-width: 800px;
     margin: 50px auto;
     padding: 20px;
-    background-color: #fff;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: #2e029e;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.2);
 }
 
 h1 {
     text-align: center;
-    color: #333;
+    color: #fff;
 }
 
 .scan-form {
@@ -31,6 +31,7 @@ form {
 
 label {
     margin-bottom: 10px;
+    color: #fff;
 }
 
 input {
@@ -39,7 +40,7 @@ input {
 }
 
 button {
-    background-color: #4caf50;
+    background-color: #009dff;
     color: #fff;
     padding: 10px;
     border: none;
